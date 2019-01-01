@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+	body{
+		margin: 0;
+		padding: 0; 
+	}
+	video{
+		top: 50%;
+	    left: 50%;
+	    min-width: 100%;
+	    min-height: 100%;
+	    width: auto;
+	    height: auto;
+	    z-index: -100;
+	    transform: translateX(-50%) translateY(-50%);
+	    background-size: cover;
+	    transition: 1s opacity;
+	}
+	#video-con{
+		height: 600px;
+	}
+	#myvideo{
+		position: fixed;
+	}
+	#cover{
+		background-color: cyan;
+		height: 200px;
+
+	}
+	</style>
+</head>
+<body>
+ 	<h1 id="name">VIVEK DESIGNS</h1>
+	<div class="info"> INFO </div>
+
+	<div id="video-con">
+	<video autoplay loop muted id="myvideo">
+	<source src="video.mp4" type="video/mp4">
+	</video>
+	</div> 
+	
+	 <div id="PROJECTS">
+		<h1>PROJECTS</h1>
+		<div class="box">
+			<img src="E:\AAKASH\Programming\Html\vivek design\image0.jpg">
+			<div class="textbox1">text</div>
+		</div>
+		<div class="box">
+			<img src="E:\AAKASH\Programming\Html\vivek design\image0.jpg">
+			<div class="textbox1">text</div>
+		</div>
+		<div class="box">
+			<img src="E:\AAKASH\Programming\Html\vivek design\image0.jpg">
+			<div class="textbox1">text</div>
+		</div>
+	</div>
+	<div class="parallax" id="f"></div>
+
+	<div class="parallax" id="s"></div>
+
+
+	<div id="footer">
+		CONTACT<br>
+		+91 8860432533
+	</div>  
+	<!-- <div id="video-con">
+	<video autoplay loop muted id="myvideo">
+	<source src="video.mp4" type="video/mp4">
+	</video>
+	</div>  -->
+
+</body>
+</html>

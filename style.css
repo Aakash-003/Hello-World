@@ -1,0 +1,75 @@
+body{
+	
+}
+
+#name{
+	position: fixed;
+	top: 10px;
+	left: 40%;
+	width: 20%;
+}
+
+.parallax{
+	min-height: 100px;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#f	{
+	background-image: url("https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg");
+	}
+
+#s	{
+	background-image: url(https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg);
+}
+.info{
+	background-image: url();
+	color: #999;
+	font-family: arial;
+	font-size: 24px;
+	position: absolute;
+	left: 50%;
+}
+
+h1{
+	text-align: center;
+	color: #333;
+	font-family: arial,;
+}
+
+#PROJECTS h1{
+	text-align: left;
+	letter-spacing: 2px;
+}
+
+#PROJECTS{
+	/*background-image: url(https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=350);
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+*/	background: cyan;
+	margin: auto;
+	height: 1300px;
+	padding: 20px;
+}
+
+.box img{
+	float: left;
+	max-width: 600px;
+	max-height: 500px;
+	margin: 20px;
+}
+
+.box .textbox1{
+	min-width: 25%;
+	height: 400px;
+}
+
+#footer{
+	color: #333;
+	text-align: right;
+	background-color: white;
+}
